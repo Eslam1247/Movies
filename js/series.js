@@ -1,4 +1,4 @@
-
+/*
 // random background option 
 let backgroundoption = true
     // background intreval
@@ -19,7 +19,7 @@ function randomizeim() {
     }
 }
 randomizeim();
-
+.*/
 
 
 
@@ -50,17 +50,4 @@ myButton.addEventListener('click', function() {
 });
 
 
-// Hidden Loader
-let loader = document.getElementById("load");
-
-document.body.style.overflow = "hidden";
-
-setTimeout(function () {
-  loader.style.cssText = "opacity: 0; transition: all 1s linear;";
-  document.body.style.overflow = "auto";
-}, 2000);
-
-setTimeout(function () {
-  loader.style.cssText = "z-index: -3; opacity: 0;";
-}, 3000);
 
